@@ -20,7 +20,7 @@ require_once __DIR__ . '/db.php';
 setupHeaders();
 
 // Chave secreta para operações administrativas
-define('ADMIN_SECRET_KEY', 'Jesuseocaminho1');
+define('ADMIN_SECRET_KEY', 'Yeshuaeocaminho1');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     jsonResponse(['success' => false, 'message' => 'Método não permitido'], 405);
